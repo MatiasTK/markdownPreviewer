@@ -1,0 +1,72 @@
+#preview h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+#preview h1 {
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
+}
+
+#preview h2 {
+  border-bottom: 1px solid white;
+  padding-bottom: 0.5rem;
+}
+
+#preview p {
+  margin-bottom: 1rem;
+}
+
+#preview code {
+  background-color: #363b3e;
+  border: 1px solid #363b3e;
+}
+
+#preview pre {
+  background-color: #363b3e;
+  margin-bottom: 1rem;
+}
+
+#preview a {
+  color: mediumblue;
+  text-decoration: underline;
+}
+
+#preview blockquote {
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid slategray;
+}
+
+#preview table,
+thead,
+tr,
+th,
+td {
+  border: 2px solid slategray;
+  margin: 0;
+  min-width: 10rem;
+}
+
+#preview table {
+  margin-bottom: 1rem;
+}
+
+#preview ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+}
+
+#preview ol {
+  list-style-type: decimal;
+  margin-left: 1rem;
+}
+
+#preview li {
+  margin-bottom: 1rem;
+}
