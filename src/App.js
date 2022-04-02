@@ -56,9 +56,9 @@ export default function App() {
   dispatch(changeInput(example));
 
   return (
-    <div>
+    <div className="h-screen">
       <Banner />
-      <div className="playground bg-indigo-900 w-full h-screen grid grid-cols-2 gap-2">
+      <div className="playground bg-indigo-900 w-full h-full grid grid-cols-2 gap-2 overflow-hidden">
         <TextEditor />
         <Previewer />
       </div>
