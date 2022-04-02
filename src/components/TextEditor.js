@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { changeInput } from "../redux/RootReducer";
-import * as marked from "https://cdn.skypack.dev/marked@4.0.12";
+import { marked } from 'marked';
 
 export default function TextEditor() {
   const dispatch = useDispatch();

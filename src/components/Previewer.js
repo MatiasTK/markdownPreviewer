@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import * as marked from "https://cdn.skypack.dev/marked@4.0.12";
+import { marked } from 'marked';
 
 export default function Previewer() {
   const state = useSelector((state) => state);
